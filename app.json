@@ -7,7 +7,7 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/CrazyMindd/Pw-downloader-test.git",
+    "repository": "https://github.com/CrazyMindd/Pw-downloader-test",
     "success_url": "https://t.me/teamjaishriramBot",
     "stack": "container",
     "env": {
