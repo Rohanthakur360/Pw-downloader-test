@@ -105,7 +105,7 @@ async def account_login(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
-    if raw_text3 == 'Robin':
+    if raw_text3 == 'crazy':
         MR = highlighter 
     else:
         MR = raw_text3
@@ -145,7 +145,6 @@ async def account_login(bot: Client, m: Message):
              url =  "https://d26g5bnklkwsh4.cloudfront.net/" + id + "/master.m3u8"
              url = "https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.m3u8"
              url =  "https://kashurtek.site/video?url=https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.mpd&quality=" + raw_text2
-
              
             #  url =  "https://kashurtek.site/video?url=https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.mpd&quality=" + raw_text2
             elif "https://appx-transcoded-videos.livelearn.in/videos/rozgar-data/" in url:
