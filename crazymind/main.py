@@ -146,7 +146,8 @@ async def account_login(bot: Client, m: Message):
              url = "https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.m3u8"
              url =  "https://kashurtek.site/video?url=https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.mpd&quality=" + raw_text2
              
-            #  url =  "https://kashurtek.site/video?url=https://d1d34p8vz63oiq.cloudfront.net/" + id + "/master.mpd&quality=" + raw_text2
+          
+            #  url =  "https://psitoffers.store/testkey.php?vid=" + id + "&quality=" + raw_text2
             elif "https://appx-transcoded-videos.livelearn.in/videos/rozgar-data/" in url:
                 url = url.replace("https://appx-transcoded-videos.livelearn.in/videos/rozgar-data/", "")
                 name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "@").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
